@@ -54,7 +54,8 @@ Open index.html in your browser.
 ---
 
 ## 📸 Screenshots
-(Add your screenshots here)
+## Home Page
+[Home Page](Screenshot from 2026-06-06 20-00-29.png)
 
 ---
 
