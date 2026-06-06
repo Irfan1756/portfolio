@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  
+
+  <title>Portfolio</title>
+</head>
+
+<body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition pt-20">
+
+<!-- NAVBAR -->
+<nav class="fixed w-full top-0 bg-white dark:bg-gray-800 shadow z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+    <h1 class="text-xl font-bold text-blue-500">SK.Irfan</h1>
+
+    <div class="hidden md:flex gap-6">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="flex gap-3">
+      <button id="darkToggle" class="px-3 py-1 bg-gray-200 dark:bg-gray-700 rounded">
+        🌙
+      </button>
+      <button id="menuBtn" class="md:hidden text-2xl">☰</button>
+    </div>
+
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden md:hidden px-6 pb-4">
+    <a href="#about" class="block py-1">About</a>
+    <a href="#skills" class="block py-1">Skills</a>
+    <a href="#education" class="block py-1">Education</a>
+    <a href="#projects" class="block py-1">Projects</a>
+    <a href="#contact" class="block py-1">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="h-screen flex items-center justify-center text-center px-6">
+  <div>
+    <h1 class="text-4xl md:text-6xl font-bold">
+      Hi, I'm <span class="text-blue-500">SK Irfan</span>
+    </h1>
+
+    <p class="mt-4 text-gray-600 dark:text-gray-300 max-w-xl">
+      Computer Science Undergraduate | Backend Developer (Java, Spring Boot, MySQL)
+    </p>
+
+    <a href="#projects"
+       class="inline-block mt-6 bg-blue-500 text-white px-6 py-3 rounded-lg">
+      View Projects
+    </a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20 px-6 max-w-5xl mx-auto">
+  <h2 class="text-3xl font-bold mb-6">About Me</h2>
+
+  <p class="text-gray-700 dark:text-gray-300 leading-7">
+    I am a Computer Science undergraduate who focuses on backend development.
+     I work mainly with Java, Spring Boot, Hibernate, and MySQL. 
+     I can build REST APIs, user login systems, and scalable applications.
+I am also working on real projects to improve my software development skills.  
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-20 bg-gray-100 dark:bg-gray-800 px-6">
+  <div class="max-w-5xl mx-auto">
+
+    <h2 class="text-3xl font-bold mb-8 text-center">Skills</h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="p-4 bg-white dark:bg-gray-700 rounded">Java</div>
+      <div class="p-4 bg-white dark:bg-gray-700 rounded">Spring Boot</div>
+      <div class="p-4 bg-white dark:bg-gray-700 rounded">Hibernate</div>
+      <div class="p-4 bg-white dark:bg-gray-700 rounded">MySQL</div>
+      <div class="p-4 bg-white dark:bg-gray-700 rounded">HTML/CSS</div>
+      <div class="p-4 bg-white dark:bg-gray-700 rounded">JavaScript</div>
+      <div class="p-4 bg-white dark:bg-gray-700 rounded">Git/GitHub</div>
+      <div class="p-4 bg-white dark:bg-gray-700 rounded">DSA & OOP</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="py-20 px-6 max-w-5xl mx-auto">
+  <h2 class="text-3xl font-bold mb-6">Education</h2>
+
+  <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg">
+    <h3 class="text-xl font-semibold">
+      RGUKT - IIIT Srikakulam
+    </h3>
+
+    <p>B.Tech Computer Science</p>
+    <p>Graduation: 2027</p>
+    <p>CGPA: 7.8 / 10</p>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-20 bg-gray-100 dark:bg-gray-800 px-6">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+
+    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow">
+      <h3 class="text-xl font-semibold mb-2">Employee Management System</h3>
+
+      <ul class="list-disc pl-6 text-gray-700 dark:text-gray-300 space-y-2">
+        <li>Built using Java Swing & AWT</li>
+        <li>CRUD operations for employee data</li>
+        <li>MySQL database integration using JDBC</li>
+        <li>GUI-based user-friendly interface</li>
+        <li>Used IntelliJ IDEA for development and testing</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- INTERNSHIP -->
+<section class="py-20 px-6 max-w-5xl mx-auto">
+  <h2 class="text-3xl font-bold mb-6">Internship</h2>
+
+  <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg">
+    <p>Currently doing internship at <b>Leap Campus</b></p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 bg-gray-100 dark:bg-gray-800 px-6">
+  <div class="max-w-xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-center mb-8">Contact</h2>
+
+   <form id="contactForm" class="space-y-4">
+
+  <input id="name" class="w-full p-3 border" placeholder="Name">
+  <input id="email" class="w-full p-3 border" placeholder="Email">
+  <textarea id="message" class="w-full p-3 border" placeholder="Message"></textarea>
+
+  <button type="submit" class="bg-blue-500 text-white px-6 py-2">
+    Submit
+  </button>
+
+</form>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", async function(e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  const res = await fetch("http://localhost:8080/send-mail", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: new URLSearchParams({
+      name: name,
+      email: email,
+      message: message
+    })
+  });
+
+  const data = await res.text();
+  alert(data);
+});
+</script>    
+  </div>
+</section>
+
+<!-- SCRIPT -->
+<script>
+  const darkToggle = document.getElementById("darkToggle");
+  darkToggle.addEventListener("click", () => {
+    document.documentElement.classList.toggle("dark");
+  });
+
+  const menuBtn = document.getElementById("menuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+
+</body>
+</html>
