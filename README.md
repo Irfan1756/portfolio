@@ -1,42 +1,75 @@
- # Personal Portfolio Website
+ ## 🧩 Project Overview
+This is my personal portfolio website designed to showcase my:
+- Skills
+- Projects
+- Education
+- Contact information
 
-## Overview
-This is my personal portfolio project built using frontend and Spring Boot backend.
+It is a full-stack project with frontend and backend concepts.
 
-## Features
-- Responsive portfolio design
-- About section
-- Skills section
-- Projects showcase
-- Contact form with backend support
+---
 
-## Technologies Used
-Frontend:
+## 🛠️ Tech Stack
+
+### Frontend:
 - HTML
 - CSS
 - JavaScript
 
-Backend:
+### Backend:
 - Java
 - Spring Boot
 - REST APIs
 
-## Project Setup
+---
 
-### Run Backend
+## ✨ Features
+- Responsive design (mobile & desktop)
+- Clean and modern UI
+- About section
+- Skills section
+- Projects showcase
+- Contact form
+
+---
+
+## 📁 Project Structure
+
+frontend/
+backend/
+
+
+---
+
+## ⚙️ How to Run Locally
+
+### Backend
 bash
 mvn spring-boot:run
 
 
-### Run Frontend
-Open index.html in browser
+### Frontend
+Open index.html in your browser.
 
-## Project Structure
-frontend/
-backend/
+---
 
-## Screenshots
-(Add images here)
+## 📸 Screenshots
+(Add your screenshots here)
 
-## Author
-Shaik Irfan
+---
+
+## 📌 Deployment
+- Frontend deployed on Netlify  
+- Backend built using Spring Boot
+
+---
+
+## 👨‍💻 Author
+- Name: Irfan  
+- GitHub: (add your GitHub link here)  
+- Email: (optional)
+
+---
+
+## ⭐ Support
+If you like this project, give it a ⭐ on GitHub!
