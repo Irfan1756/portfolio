@@ -57,7 +57,7 @@ Open index.html in your browser.
 ## Home Page
 ![Home Page](home.png)
 ![About Page](about.png)
-
+![Skills Page](skills.png)
 ---
 
 ## 📌 Deployment
