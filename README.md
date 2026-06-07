@@ -56,6 +56,7 @@ Open index.html in your browser.
 ## 📸 Screenshots
 ## Home Page
 ![Home Page](home.png)
+![About Page](about.png)
 
 ---
 
