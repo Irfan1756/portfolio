@@ -58,6 +58,10 @@ Open index.html in your browser.
 ![Home Page](home.png)
 ![About Page](about.png)
 ![Skills Page](skills.png)
+![Education Page](education.png)
+![Projects Page](projects.png)
+![Internship Page](internship.png)
+![Contact Page](contact.png)
 ---
 
 ## 📌 Deployment
